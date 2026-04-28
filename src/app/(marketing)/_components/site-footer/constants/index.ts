@@ -39,35 +39,25 @@ export const KEYWORDS: KeywordGroup[] = [
   },
 ];
 
-export const NAV_PRODUCT: NavLink[] = [
-  { label: "Torneios", href: "/tournaments" },
-  { label: "Partidas", href: "/matches" },
-  { label: "Times", href: "/teams" },
-  { label: "Notícias", href: "/news" },
-];
-
 export const NAV_SERVICES: NavLink[] = [
   { label: "Transmissão ao vivo", href: "/servicos/transmissao" },
-  { label: "League Operations", href: "/servicos/league-operations" },
-  { label: "Terceirização", href: "/servicos/outsourcing" },
-  { label: "Software", href: "/servicos/desenvolvimento" },
-  { label: "Produção audiovisual", href: "/servicos/producao-audiovisual" },
-  { label: "Consultoria", href: "/servicos/consultoria" },
+  { label: "Operações de liga", href: "/servicos/league-operations" },
+  { label: "Terceirização (outsourcing)", href: "/servicos/outsourcing" },
+  { label: "Consultoria especializada", href: "/servicos/consultoria" },
+  { label: "Software e TI", href: "/servicos/desenvolvimento" },
 ];
 
 export const NAV_COMPANY: NavLink[] = [
-  { label: "Cases", href: "/cases" },
   { label: "Sobre", href: "/sobre" },
-  { label: "Contato", href: "/contato" },
-  { label: "Blog", href: "/blog" },
-  { label: "Carreiras", href: "/carreiras" },
+  { label: "Cases", href: "/cases" },
+  { label: "Contato", href: "mailto:arretadosgg@gmail.com" },
 ];
 
-export const NAV_CONTACT: NavLink[] = [
-  { label: "comercial@arretados.gg", href: "mailto:comercial@arretados.gg" },
+export const NAV_SOCIAL: NavLink[] = [
   { label: "LinkedIn", href: "https://linkedin.com/company/arretados" },
-  { label: "Instagram", href: "https://instagram.com/arretados" },
   { label: "YouTube", href: "https://youtube.com/@arretados" },
+  { label: "Instagram", href: "https://instagram.com/arretados" },
+  { label: "Twitter", href: "https://x.com/arretados" },
 ];
 
 export const LEGAL_LINKS: NavLink[] = [
@@ -75,8 +65,3 @@ export const LEGAL_LINKS: NavLink[] = [
   { label: "Termos de uso", href: "/termos" },
   { label: "Cookies", href: "/cookies" },
 ];
-
-export const COMPANY_INFO = {
-  razaoSocial: "Arretados Esports Operações Ltda.",
-  cnpj: "00.000.000/0001-00",
-} as const;

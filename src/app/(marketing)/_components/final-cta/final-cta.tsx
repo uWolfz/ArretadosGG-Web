@@ -16,16 +16,21 @@ export function FinalCta() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-col justify-center px-6 py-14 text-white sm:px-10 sm:py-16 lg:px-14 lg:py-20">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-white/60">
-              Você chegou no fim da página.
+              Crie seu campeonato com a gente
             </p>
 
             <h2
               id="final-cta-heading"
               className="mt-5 max-w-xl text-balance text-3xl font-medium leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-5xl"
             >
-              Se chegou até aqui, é porque tá{" "}
-              <span className="text-brand-yellow">interessado</span>.
+              Conta o formato, o jogo, o{" "}
+              <span className="text-brand-yellow">objetivo</span>.
             </h2>
+
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
+              Desenhamos a operação do seu campeonato do zero — broadcast,
+              liga, software e consultoria sob o mesmo teto.
+            </p>
 
             <div className="mt-10">
               <Link
@@ -35,7 +40,7 @@ export function FinalCta() {
                 className="inline-flex h-11 items-center gap-2.5 rounded-md bg-white px-6 text-sm font-medium text-brand-green transition-colors hover:bg-white/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-yellow"
               >
                 <WhatsappIcon className="h-4 w-4" />
-                Vai, clica nesse botão
+                Falar no WhatsApp
               </Link>
             </div>
           </div>

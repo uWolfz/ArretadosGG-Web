@@ -6,7 +6,7 @@ export function SecondaryCard({ service }: { service: Service }) {
   return (
     <Link
       href={service.href}
-      className="group relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl bg-neutral-950 p-6 text-white transition-all duration-300 hover:shadow-xl sm:min-h-[360px] sm:p-7 lg:col-span-2 lg:min-h-[380px]"
+      className="group relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl bg-neutral-950 p-6 text-white transition-all duration-300 hover:shadow-xl sm:min-h-[360px] sm:p-7 lg:col-span-1 lg:min-h-[380px]"
     >
       <Image
         src={service.photo.src}

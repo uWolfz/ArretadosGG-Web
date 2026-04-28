@@ -2,23 +2,19 @@ import type { Metric } from "../types";
 
 export const METRICS: Metric[] = [
   {
-    value: "15012122+",
+    value: "28",
     label: "eventos operados",
-    detail: "do pequeno LAasaksakjlskasN ao broadcast nacional",
+    detail: "do LAN regional ao broadcast nacional",
   },
   {
-    value: "8",
+    value: "12",
     label: "títulos cobertos",
-    detail: "CODM, LoL, Valorant, Warzone, CS, Free Fire",
+    detail:
+      "CODM, LoL, Valorant, CS2, Free Fire, BO6, EA FC, Brawl Stars, Street Fighter e mais",
   },
   {
-    value: "2M+",
-    label: "viewers alcançados",
+    value: "3M+",
+    label: "visualizações geradas",
     detail: "em broadcasts nativos e embeds de plataforma",
-  },
-  {
-    value: "24/7",
-    label: "operação ao vivo",
-    detail: "time técnico do primeiro ao último jogo",
   },
 ];

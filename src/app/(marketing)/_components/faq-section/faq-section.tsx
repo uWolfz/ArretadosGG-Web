@@ -38,9 +38,11 @@ export function FaqSection() {
                   +
                 </span>
               </summary>
-              <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-                {item.answer}
-              </p>
+              <div className="mt-4 flex max-w-xl flex-col gap-3 text-sm leading-relaxed text-muted-foreground sm:text-base">
+                {item.answer.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
             </details>
           ))}
         </div>

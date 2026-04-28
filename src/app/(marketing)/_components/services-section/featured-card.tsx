@@ -6,7 +6,7 @@ export function FeaturedCard({ service }: { service: FeaturedService }) {
   return (
     <Link
       href={service.href}
-      className="group relative flex h-full min-h-[420px] flex-col justify-between overflow-hidden rounded-2xl bg-neutral-950 p-8 text-white md:col-span-2 md:row-span-2 md:min-h-[520px] lg:col-span-4 lg:p-10"
+      className="group relative flex h-full min-h-[420px] flex-col justify-between overflow-hidden rounded-2xl bg-neutral-950 p-8 text-white md:col-span-2 md:row-span-2 md:min-h-[520px] lg:col-span-2 lg:p-10"
     >
       <AmbientVideo
         src={service.video.src}
@@ -30,7 +30,7 @@ export function FeaturedCard({ service }: { service: FeaturedService }) {
           </span>
         </div>
         <span className="font-mono text-[11px] tracking-[0.2em] text-white/50">
-          {service.code} / 06
+          {service.code} / 05
         </span>
       </div>
 

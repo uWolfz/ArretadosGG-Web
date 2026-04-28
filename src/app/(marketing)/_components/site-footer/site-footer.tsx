@@ -1,13 +1,11 @@
 import Link from "next/link";
 import { Logo } from "@/components/shared/header/logo";
 import {
-  COMPANY_INFO,
   KEYWORDS,
   LEGAL_LINKS,
   NAV_COMPANY,
-  NAV_CONTACT,
-  NAV_PRODUCT,
   NAV_SERVICES,
+  NAV_SOCIAL,
 } from "./constants";
 
 export function SiteFooter() {
@@ -55,48 +53,12 @@ export function SiteFooter() {
 
       <div className="border-t border-foreground/10">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-12 lg:gap-10 lg:px-8">
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-6">
             <Logo className="h-10 w-auto" priority={false} />
-            <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Operação completa de esports — broadcast, liga, software e
-              consultoria sob o mesmo teto. Um time, sem repasse.
+            <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
+              Operação completa de eSports — broadcast, liga, software e
+              consultoria sob o mesmo teto.
             </p>
-            <dl className="mt-8 space-y-3 text-sm text-muted-foreground">
-              <div className="flex flex-col gap-1">
-                <dt className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70">
-                  Razão social
-                </dt>
-                <dd className="text-foreground/85">
-                  {COMPANY_INFO.razaoSocial}
-                </dd>
-              </div>
-              <div className="flex flex-col gap-1">
-                <dt className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70">
-                  CNPJ
-                </dt>
-                <dd className="font-mono text-foreground/85">
-                  {COMPANY_INFO.cnpj}
-                </dd>
-              </div>
-            </dl>
-          </div>
-
-          <div className="lg:col-span-2">
-            <h3 className="font-mono text-[11px] uppercase tracking-[0.22em] text-foreground">
-              Produto
-            </h3>
-            <ul className="mt-5 flex flex-col gap-3">
-              {NAV_PRODUCT.map((n) => (
-                <li key={n.href}>
-                  <Link
-                    href={n.href}
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                  >
-                    {n.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <div className="lg:col-span-2">
@@ -137,13 +99,15 @@ export function SiteFooter() {
 
           <div className="lg:col-span-2">
             <h3 className="font-mono text-[11px] uppercase tracking-[0.22em] text-foreground">
-              Contato
+              Redes sociais
             </h3>
             <ul className="mt-5 flex flex-col gap-3">
-              {NAV_CONTACT.map((n) => (
+              {NAV_SOCIAL.map((n) => (
                 <li key={n.href}>
                   <Link
                     href={n.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     {n.label}

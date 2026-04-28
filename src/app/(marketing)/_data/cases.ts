@@ -335,8 +335,8 @@ export function getNextCase(slug: string): CaseStudy | undefined {
 }
 
 export const CASES_AGGREGATE_STATS: { value: string; label: string }[] = [
-  { value: "3", label: "eventos operados" },
-  { value: "72", label: "equipes atendidas" },
-  { value: "90+", label: "partidas no ar" },
-  { value: "4", label: "modalidades cobertas" },
+  { value: "28", label: "eventos operados" },
+  { value: "300", label: "equipes atendidas" },
+  { value: "1000", label: "partidas no ar" },
+  { value: "12", label: "modalidades cobertas" },
 ];

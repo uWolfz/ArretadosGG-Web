@@ -46,13 +46,9 @@ export function CasesIntro() {
           </div>
 
           <div className="flex max-w-md flex-col gap-5 border-l border-foreground/15 pl-6 lg:max-w-sm">
-            <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-              /README
-            </span>
             <p className="text-base leading-relaxed text-foreground/80 sm:text-lg">
-              Sem fornecedor em cadeia. A Arretados segura regulamento,
-              broadcast, software e audiovisual no mesmo teto — três cases, uma
-              operação só.
+              Tudo em uma única operação. Regulamento, broadcast, tecnologia e
+              audiovisual integrados pela Arretados.
             </p>
           </div>
         </div>

@@ -7,11 +7,11 @@ export function StatsBar() {
       className="border-b border-foreground/10 bg-background"
     >
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
-        <dl className="grid grid-cols-2 gap-x-6 gap-y-10 sm:gap-x-10 lg:grid-cols-4 lg:gap-x-0">
+        <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-x-10 lg:gap-x-0">
           {METRICS.map((metric, index) => (
             <div
               key={metric.label}
-              className="relative flex flex-col lg:px-8 lg:[&:not(:first-child)]:border-l lg:[&:not(:first-child)]:border-foreground/10 lg:first:pl-0 lg:last:pr-0"
+              className="relative flex flex-col sm:px-8 sm:[&:not(:first-child)]:border-l sm:[&:not(:first-child)]:border-foreground/10 sm:first:pl-0 sm:last:pr-0"
             >
               <span
                 aria-hidden

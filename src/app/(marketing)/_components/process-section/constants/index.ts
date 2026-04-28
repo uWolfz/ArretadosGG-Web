@@ -12,7 +12,7 @@ export const STEPS: Step[] = [
     code: "02",
     title: "Design da operação",
     description:
-      "Regulamento, identidade visual, broadcast plan e stack de software sobem juntos. Nada é terceirizado — o que você vai ver no ar sai da mesma sala.",
+      "Regulamento, identidade visual, plano de transmissão e stack de software sobem juntos. Nada é terceirizado — o que você vai ver no ar sai da mesma sala.",
     deliverables: ["Regulamento final", "Arte e overlays", "Software configurado"],
   },
   {
@@ -20,6 +20,10 @@ export const STEPS: Step[] = [
     title: "Operação e pós",
     description:
       "Do primeiro ping à última partida, a gente opera ao vivo. Depois entrega melhores momentos, relatório de performance e o plano da próxima temporada.",
-    deliverables: ["Broadcast ao vivo", "Best-of pós-evento", "Relatório e próximos passos"],
+    deliverables: [
+      "Broadcast ao vivo",
+      "Melhores momentos pós-evento",
+      "Relatório e próximos passos",
+    ],
   },
 ];

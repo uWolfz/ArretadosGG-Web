@@ -24,8 +24,9 @@ export function CasesSection() {
             </h2>
           </div>
           <p className="max-w-sm text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Recorte dos últimos eventos operados — do broadcast mensal à LAN
-            regional. Mais cases em{" "}
+            Experiência comprovada na operação de eventos e campeonatos — do
+            palco presencial às ligas recorrentes com gestão mensal. Veja
+            nossos cases em{" "}
             <Link
               href="/cases"
               className="underline underline-offset-4 hover:text-foreground"
