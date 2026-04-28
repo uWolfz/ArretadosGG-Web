@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# lock files de outros gerenciadores (projeto usa pnpm)
+package-lock.json
+yarn.lock
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# dev artifacts
+/.playwright-mcp/
+/.claude/
+/*.png
+!/public/**/*.png
+
+# agent workspaces (GSD, superpowers) — locais por máquina, não entram no repo
+/.planning/
+/docs/superpowers/
+
+# event media source (raw iPhone HEIC/MOV, too large for git — processar
+# pra /public/eventos-web/*.webp|mp4 e comitar só a versão otimizada)
+/public/eventos/
+
+# docs build artifacts — PDFs de draft gerados por `pnpm docs:build`.
+# Só a versão tageada (docs/arretados-<doc>-v{n}.pdf) entra no repo.
+/docs/build/output/

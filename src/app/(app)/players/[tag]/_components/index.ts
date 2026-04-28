@@ -1,0 +1,10 @@
+export { PlayerDetailHero } from "./player-detail-hero";
+export { PlayerKpiGrid } from "./player-kpi-grid";
+export { PlayerStatsDetail } from "./player-stats-detail";
+export { PlayerTeamsTimeline } from "./player-teams-timeline";
+export { PlayerTournamentsList } from "./player-tournaments-list";
+export { PlayerAchievementsGrid } from "./player-achievements-grid";
+export { PlayerIdentityCard } from "./player-identity-card";
+export { PlayerRankingCard } from "./player-ranking-card";
+export { PlayerSponsorSlot } from "./player-sponsor-slot";
+export { PlayerArtDialog } from "./player-art-dialog";

@@ -1,0 +1,12 @@
+export { HomeIcon } from "./home-icon";
+export { LayersIcon } from "./layers-icon";
+export { TrophyIcon } from "./trophy-icon";
+export { UsersIcon } from "./users-icon";
+export { MailIcon } from "./mail-icon";
+export { WhatsappIcon } from "./whatsapp-icon";
+export { SwordsIcon } from "./swords-icon";
+export { NewspaperIcon } from "./newspaper-icon";
+export { FlameIcon } from "./flame-icon";
+export { UserRoundIcon } from "./user-round-icon";
+export { MicIcon } from "./mic-icon";
+export type { IconProps } from "./types";
